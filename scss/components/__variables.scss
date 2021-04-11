@@ -1,0 +1,56 @@
+@import "__functions.scss";
+
+// Colors
+$color-primary: #f61067;
+$color-secondary100: #5e239d;
+$color-secondary200: #3a0475;
+$color-secondary300: #30124e;
+$color-secondary400: #150433;
+$color-tetrary: #00f0b5;
+$color-white: #fcfcfc;
+$color-lightGray: #f4f4ed;
+$color-error: #f0002b;
+$color-success: #10f65e;
+$color-warning: #f67110;
+$color-info: #00a8f0;
+$color-headers: #30233d;
+$color-mainText: #776c82;
+$color-gray: #9b94a3;
+
+// Opacity
+$opacity-0: 0;
+$opacity-25: 0.25;
+$opacity-50: 0.5;
+$opacity-75: 0.75;
+$opacity-100: 1;
+
+// Shadow
+$bs-violet: 0px 8px 64px rgba($color-secondary100, $opacity-25);
+$bs-pink: 0px 8px 64px rgba($color-primary, $opacity-25);
+$bs-green: 0px 8px 64px rgba($color-tetrary, $opacity-25);
+
+// Font Size
+$fs-8: rem(8px);
+$fs-10: rem(10px);
+$fs-12: rem(12px);
+$fs-15: rem(15px);
+$fs-18: rem(18px);
+$fs-24: rem(24px);
+$fs-36: rem(36px);
+$fs-48: rem(48px);
+$fs-72: rem(72px);
+$fs-96: rem(96px);
+$fs-144: rem(144px);
+
+// Z-index
+$z-modal: 99;
+$z-fixed: 98;
+
+// Font Weight
+$fw-thin: 100;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+$fw-extraBold: 800;
+$fw-black: 900;

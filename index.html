@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<title>Lopper</title>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__menu menu">
+			<div class="menu__icon"><span></span></div>
+
+			<nav class="menu__body body">
+				<div class="body__logo">Lopper</div>
+
+				<ul class="body__list list">
+					<li class="list__item"><a href="#">Home</a></li>
+					<li class="list__item"><a href="#">Services</a></li>
+					<li class="list__item"><a href="#">Work</a></li>
+					<li class="list__item"><a href="#">About</a></li>
+				</ul>
+
+				<div class="body__phone phone">
+					<img class="phone__icon" src="images/tel.svg" alt="tel">
+					<p class="phone__number">(01) 666 - 693 - 456</p>
+				</div>
+			</nav>
+		</div>
+
+		<div class="header__headline headline">
+			<div class="headline__question">What we do?</div>
+			<div class="headline__answer">We grow <span>great business</span></div>
+		</div>
+
+		<a class="header__subheader" href="#">
+      <span>Velit laoreet id donec ultrices. Ut lectus arcu bibendum varius.</span>
+    </a>
+
+		<a class="header__scroll" href="#intro">
+      <span>Scroll to see more</span>
+    </a>
+
+	</header>
+
+	<main>
+		<section class="intro" id="intro">
+			<div class="intro__wrapper">
+				<div class="intro__suptitle">intro</div>
+				<div class="intro__title">Our future</div>
+				<div class="intro__subtitle">Apparently we had reached a great height in the atmosphere, for the sky was a dead
+					black, and the stars had ceased to twinkle.</div>
+				<div class="intro__text">By the same illusion which lifts the horizon of the sea to the level of the spectator
+					on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense
+					dark sphere, whose upper half was strewn with silver.</div>
+				<a class="intro__btn" href="#">learn more</a>
+
+				<div class="intro__photo">
+					<img src="images/intro.png" alt="">
+					<div class="intro__quote">Commodo sed egestas egestas fringilla phasellus faucibus.</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="benefits">
+			<div class="benefits__suptitle">benefits</div>
+			<div class="benefits__title">Shaping the future</div>
+			<div class="benefits__subtitle">Eget nunc scelerisque viverra mauris in aliquam. Dignissim sodales ut eu sem
+				integer vitae. Libero nunc consequat interdum varius.</div>
+			<div class="benefits__text">
+				<p>Magna sit amet purus gravida. Sit amet porttitor eget dolor morbi non.</p>
+				<p>Lectus vestibulum mattis ullamcorper velit sed ullamcorper.</p>
+				<p>Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Dui faucibus in ornare quam viverra.</p>
+				<p>Posuere ac ut consequat semper viverra.</p>
+			</div>
+			<a class="benefits__btn" href="#">learn more</a>
+
+			<div class="benefits__slider slider">
+				<div class="slider__item">
+					<img src="images/Img1.png" alt="">
+				</div>
+				<div class="slider__item">
+					<img src="images/intro.png" alt="">
+				</div>
+				<div class="slider__item">
+					<img src="images/Header.jpg" alt="">
+				</div>
+
+				<div class="slider__text">Mobile app</div>
+
+				<div class="slider__btns">
+					<button class="prev" onclick="minusSlide()">&#10094;</button>
+					<button class="next" onclick="plusSlide()">&#10095;</button>
+				</div>
+			</div>
+			<div class="benefits__bg-white"></div>
+			<div class="benefits__bg-blue"></div>
+		</section>
+
+		<section class="services">
+			<div class="services__suptitle">we are amazing</div>
+			<div class="services__title">Our services</div>
+			<div class="services__subtitle">Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Quam
+				elementum pulvinar etiam non. Eu consequat.</div>
+			<div class="services__stack stack">
+				<div class="stack_item item">
+					<div class="item__icon"><img src="images/v1.svg" alt=""></div>
+					<div class="item__title">Webdesign</div>
+					<div class="item__text">Tincidunt lobortis feugiat vivamus at augue eget. Risus feugiat in ante metus dictum.
+						Amet aliquam id diam maecenas.</div>
+				</div>
+				<div class="stack_item item">
+					<div class="item__icon"><img src="images/v2.svg" alt=""></div>
+					<div class="item__title">Webdesign</div>
+					<div class="item__text">Tincidunt lobortis feugiat vivamus at augue eget. Risus feugiat in ante metus dictum.
+						Amet aliquam id diam maecenas.</div>
+				</div>
+				<div class="stack_item item">
+					<div class="item__icon"><img src="images/v3.svg" alt=""></div>
+					<div class="item__title">Webdesign</div>
+					<div class="item__text">Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Malesuada
+						fames ac turpis egestas sed.</div>
+				</div>
+				<div class="stack_item item">
+					<div class="item__icon"><img src="images/v4.svg" alt=""></div>
+					<div class="item__title">Webdesign</div>
+					<div class="item__text">Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Eu feugiat
+						pretium nibh ipsum consequat nisl vel pretium. </div>
+				</div>
+				<div class="stack_item item">
+					<div class="item__icon"><img src="images/v5.svg" alt=""></div>
+					<div class="item__title">Webdesign</div>
+					<div class="item__text">Tincidunt lobortis feugiat vivamus at augue eget. Risus feugiat in ante metus dictum.
+						Amet aliquam id diam maecenas.</div>
+				</div>
+				<div class="stack_item item">
+					<div class="item__icon"><img src="images/v6.svg" alt=""></div>
+					<div class="item__title">Webdesign</div>
+					<div class="item__text">Tincidunt Eget lobortis feugiat vivamus at augue eget. Risus feugiat in ante metus
+						dictum. Amet aliquam id diam maecenas.</div>
+				</div>
+			</div>
+			<a class="services__btn" href="#">learn more</a>
+		</section>
+
+		<section class="newsletter">
+			<div class="newsletter__title">Subscribe to our newsletter</div>
+			<div class="newsletter__text">Cras pulvinar mattis nunc sed blandit.</div>
+			<form class="newsletter__form form">
+				<input class="form__input" type="email" placeholder="enter email">
+				<button class="form__btn">subscribe</button>
+			</form>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__logo logo">
+			<p class="logo__title">Lopper</p>
+			<div class="logo__text">Eu augue ut lectus arcu bibendum at.</div>
+		</div>
+
+		<div class="footer__menu menu">
+			<nav class="menu__body">
+				<ul class="menu__list list">
+					<li class="list__item submenu">
+						<span>home</span>
+						<ul class="submenu__list sublist">
+							<li class="sublist__item"><a href="#">Home</a></li>
+							<li class="sublist__item"><a href="#">About</a></li>
+							<li class="sublist__item"><a href="#">Services</a></li>
+							<li class="sublist__item"><a href="#">News</a></li>
+							<li class="sublist__item"><a href="#">Gallery</a></li>
+							<li class="sublist__item"><a href="#">Contact</a></li>
+						</ul>
+					</li>
+
+					<li class="list__item submenu">
+						<span>services</span>
+						<ul class="submenu__list sublist">
+							<li class="sublist__item"><a href="#">Lorem</a></li>
+							<li class="sublist__item"><a href="#">Ipsum</a></li>
+							<li class="sublist__item"><a href="#">Dolor</a></li>
+							<li class="sublist__item"><a href="#">Sit Amet</a></li>
+						</ul>
+					</li>
+
+					<li class="list__item submenu">
+						<span>contact us</span>
+						<ul class="submenu__list sublist">
+							<li class="sublist__item"><a href="#">contact@lop.com</a></li>
+							<li class="sublist__item"><a href="#">848 - 235 - 234</a></li>
+						</ul>
+					</li>
+
+					<li class="list__item submenu">
+						<span>follow us</span>
+						<ul class="submenu__list sublist _follow">
+							<li class="sublist__item _follow">
+								<a href="#" class="fa fa-twitter"></a>
+							</li>
+							<li class="sublist__item _follow">
+								<a href="#" class="fa fa-facebook"></a>
+							</li>
+							<li class="sublist__item _follow">
+								<a href="#" class="fa fa-instagram"></a>
+							</li>
+							<li class="sublist__item _follow">
+								<a href="#" class="fa fa-youtube"></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="copirights">© <span id="year"></span> Lopper by mariuszdaniel. All right reserved.</div>
+
+	</footer>
+
+	<script src="scripts/slider.js"></script>
+	<script src="scripts/menu.js"></script>
+	<script src="scripts/currentYear.js"></script>
+</body>
+
+</html>
